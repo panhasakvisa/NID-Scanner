@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="Widget.Theme.NIDScanner.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.NIDScanner.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/BigText</item>
+    </style>
+
+    <style name="ButtonBorderWhite" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:foreground">@drawable/ripple_selector</item>
+        <item name="android:background">@drawable/round_white_border</item>
+    </style>
+
+    <style name="ButtonBorderPrimaryDark" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:foreground">@drawable/ripple_selector</item>
+        <item name="android:background">@drawable/round_primary_dark_border</item>
+    </style>
+
+    <style name="ButtonNoBorderPrimaryLight" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:foreground">@drawable/ripple_selector</item>
+        <item name="android:background">@drawable/primary_light_no_border</item>
+    </style>
+
+    <style name="ButtonNoBorderPrimaryGradient" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:foreground">@drawable/ripple_selector</item>
+        <item name="android:background">@drawable/primary_gradient_no_border</item>
+    </style>
+
+    <style name="MyEditText">
+        <item name="android:background">@drawable/light_grey_round_background</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="MySpinner" parent="MyEditText">
+        <item name="android:foreground">@drawable/spinner_bg</item>
+    </style>
+
+</resources>

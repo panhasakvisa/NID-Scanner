@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NID Scanner</string>
+    <string name="title_activity_loginscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="scan_your_id_or_passpord">Scan your ID or Passpord</string>
+    <string name="back">Back</string>
+    <string name="continue_">Continue</string>
+    <string name="to_continue_you_need_to_use_your_original_nvalid_khmer_id_or_passport">To continue, you need to use your original \nvalid Khmer ID or Passport</string>
+    <string name="id_type">ID Type</string>
+    <string name="id_number">ID Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="asterisk">*</string>
+</resources>
